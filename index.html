@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>HireSafe</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>🛡 HireSafe</h1>
+
+    <p class="subtitle">
+      Detect fake job offers and online hiring scams instantly.
+    </p>
+
+    <textarea
+      id="jobInput"
+      placeholder="Paste job description here..."
+    ></textarea>
+
+    <button onclick="analyzeJob()">
+      Analyze Job
+    </button>
+
+    <div id="resultBox" class="result-box">
+      <h2 id="resultTitle"></h2>
+      <p id="resultText"></p>
+      <div id="score"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
