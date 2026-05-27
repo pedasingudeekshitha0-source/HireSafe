@@ -42,3 +42,22 @@ src/
 ├── index.html
 ├── style.css
 └── script.js
+
+---
+
+## 🚀 Future Improvements
+
+- User authentication
+- Cloud task sync
+- Task reminders
+- Priority management
+- Mobile support
+
+---
+
+## 👩‍💻 Author
+
+Deekshitha Pedasingu
+
+GitHub:
+https://github.com/pedasingudeekshitha0-source
